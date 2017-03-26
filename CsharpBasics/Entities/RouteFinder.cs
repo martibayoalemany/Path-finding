@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CSharpBasics
+namespace CSharpBasics.Entities
 {
     public interface IRouteFinder
     {

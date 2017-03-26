@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using NSubstitute;
-using TrainsCSharpMA;
-using Xunit;
+using CSharpBasics.Entities;
 
-namespace TrainsCsharpMA.test
+namespace CsharpBasics.test
 {
     public class StandardMatrixTest : IDisposable, IMatrix
     {

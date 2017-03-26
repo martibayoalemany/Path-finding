@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace CSharpBasics
+namespace CSharpBasics.Entities
 {
     public struct Edge
     {
