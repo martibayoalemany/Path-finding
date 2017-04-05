@@ -1,0 +1,12 @@
+{
+        "dependencies": {
+	    "xunit": "2.0.0-rc",
+	    "NSubstitute" : "2.0.0-rc"
+        },
+        "frameworks": {
+            "net45": { }
+        },
+        "runtimes": {
+            "win": { }
+        }
+    }
