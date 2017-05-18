@@ -103,9 +103,4 @@ Expected Output:
 
 9. Output #9: 9 
 
-10. Output #10: 7 
-
-## Initialize C# coding environment 
-```
-
-```
+10. Output #10: 7
