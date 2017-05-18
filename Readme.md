@@ -16,26 +16,26 @@ Three development environment were tried and I decided to use Jetbrains.
 
 **dotnet-host** - Microsoft .NET Core 1.0.0 - Host  
 ```
- *apt -y install dotnet-host*
+ apt -y install dotnet-host
 ```
 **nuget** - Package manager for NuGet repos - executable  
 ```
-*apt -y install nuget*
+apt -y install nuget
 ```
 **ubuntu-make** - setup your development environment on ubuntu easily  
 ```
-*apt -y install ubuntu-make && umake ide visual-sudio-code*
+apt -y install ubuntu-make && umake ide visual-sudio-code
 ```
 **Install mono-ci**  
 ```
-*sudo apt-key adv --keyserver keyserver.ubuntu.com  
- --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF*    
+sudo apt-key adv --keyserver keyserver.ubuntu.com  
+ --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF    
  
-*echo "deb http://jenkins.mono-project.com/repo/debian sid main"  
- | sudo tee /etc/apt/sources.list.d/mono-jenkins.list*  
+echo "deb http://jenkins.mono-project.com/repo/debian sid main"  
+ | sudo tee /etc/apt/sources.list.d/mono-jenkins.list  
  
-*sudo apt-get update*  
-*sudo apt-get install mono-snapshot-latest* 
+sudo apt-get update  
+sudo apt-get install mono-snapshot-latest 
 ```
 ** Setting up nuget 2.8.7 ** 
 *https://launchpad.net/ubuntu/+source/nuget/2.8.7+md510+dhx1-1*  
