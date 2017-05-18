@@ -46,13 +46,17 @@ nuget install NSubstitute
 TODO: Install nuget 3 on linux, we had issues there. Some Linq assemblies are not available on 2.8.7.
 
 # Create a new project
-*dotnet new*  
-*dotnet restore --infer-runtimes*  
-*dotnet publish*  
+```
+dotnet new
+dotnet restore --infer-runtimes
+dotnet publish
+```  
 
 # Build the project
-*dotnet build project.json*  
-*dotnet run project.json*  
+```
+dotnet build project.json
+dotnet run project.json  
+```
 
 # Description
 
