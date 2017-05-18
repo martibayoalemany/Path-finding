@@ -34,7 +34,8 @@ Three development environment were tried and I decided to use Jetbrains.
 *sudo apt-get install mono-snapshot-latest* 
 
 ** Setting up nuget 2.8.7 ** 
-*https://launchpad.net/ubuntu/+source/nuget/2.8.7+md510+dhx1-1* 
+*https://launchpad.net/ubuntu/+source/nuget/2.8.7+md510+dhx1-1*  
+
 * nuget install System.Linq * 
 * nuget install NSubstitute * 
 
