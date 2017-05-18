@@ -31,12 +31,14 @@ Three development environment were tried and I decided to use Jetbrains.
  | sudo tee /etc/apt/sources.list.d/mono-jenkins.list*  
  
 *sudo apt-get update*  
-*sudo apt-get install mono-snapshot-latest*
+*sudo apt-get install mono-snapshot-latest* 
 
-** Setting up nuget 2.8.7 **
-* https://launchpad.net/ubuntu/+source/nuget/2.8.7+md510+dhx1-1*
-* nuget install System.Linq *
-* nuget install NSubstitute *
+** Setting up nuget 2.8.7 ** 
+*https://launchpad.net/ubuntu/+source/nuget/2.8.7+md510+dhx1-1* 
+* nuget install System.Linq * 
+* nuget install NSubstitute * 
+
+TODO: Install nuget 3 on linux
 
 # Create a new project
 *dotnet new*  
