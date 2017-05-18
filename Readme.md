@@ -61,7 +61,8 @@ dotnet run project.json
 
 # Description
 
-Implemented a simple path finding algorithm for an entry technical test
+Implemented a simple path finding algorithm ("Network Routing")
+
 
 TODO:  
 Check a more efficient algorithm for the task in place 
