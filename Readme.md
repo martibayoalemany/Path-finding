@@ -35,10 +35,10 @@ Three development environment were tried and I decided to use Jetbrains.
 
 ** Setting up nuget 2.8.7 ** 
 *https://launchpad.net/ubuntu/+source/nuget/2.8.7+md510+dhx1-1*  
-
-* nuget install System.Linq * 
-* nuget install NSubstitute * 
-
+```
+nuget install System.Linq
+nuget install NSubstitute
+```
 TODO: Install nuget 3 on linux, we had issues there. Some Linq assemblies are not available on 2.8.7.
 
 # Create a new project
