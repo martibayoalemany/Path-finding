@@ -8,9 +8,9 @@ The dependencies are XUnit for unit testing and NSubstitute for mocking.
 # Other steps taken
 I setup an environment for C# development under ubuntu linux.
 Three development environment were tried and I decided to use Jetbrains.
-* Jetbrains rider (Beta)
-* Microsoft Visual Studio Code
-* Monodevelop
+ * Jetbrains rider (Beta)
+ * Microsoft Visual Studio Code
+ * Monodevelop
 
 # Setup the environment in linux
 
