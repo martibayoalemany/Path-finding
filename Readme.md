@@ -6,7 +6,7 @@ I used nuget for dependency management from the user interface of jetbrains ride
 The dependencies are XUnit for unit testing and NSubstitute for mocking.
   
 # Other steps taken
-I tried to setup the best development environment for C# development and unit testing under ubuntu linux.
+I setup an environment for C# development under ubuntu linux.
 Three development environment were tried and I decided to use Jetbrains.
 * Jetbrains rider (Beta)
 * Microsoft Visual Studio Code
@@ -15,15 +15,19 @@ Three development environment were tried and I decided to use Jetbrains.
 # Setup the environment in linux
 
 **dotnet-host** - Microsoft .NET Core 1.0.0 - Host  
+```
  *apt -y install dotnet-host*
-
+```
 **nuget** - Package manager for NuGet repos - executable  
+```
 *apt -y install nuget*
-
+```
 **ubuntu-make** - setup your development environment on ubuntu easily  
+```
 *apt -y install ubuntu-make && umake ide visual-sudio-code*
-
+```
 **Install mono-ci**  
+```
 *sudo apt-key adv --keyserver keyserver.ubuntu.com  
  --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF*    
  
@@ -32,7 +36,7 @@ Three development environment were tried and I decided to use Jetbrains.
  
 *sudo apt-get update*  
 *sudo apt-get install mono-snapshot-latest* 
-
+```
 ** Setting up nuget 2.8.7 ** 
 *https://launchpad.net/ubuntu/+source/nuget/2.8.7+md510+dhx1-1*  
 ```
