@@ -1,12 +1,6 @@
 ### CSharpBasics
 
 
-
-# Description
-
-Implemented a simple path finding algorithm ("Network Routing")
-
-
 TODO:  
 Check a more efficient algorithm for the task in place 
  https://en.wikipedia.org/wiki/A*_search_algorithm
